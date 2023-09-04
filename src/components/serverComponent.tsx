@@ -1,7 +1,7 @@
 import { Product } from "@/types";
 import { PropsWithChildren } from "react";
 
-export default async (props: PropsWithChildren) => {
+ const ServerComponent = async (props: PropsWithChildren) => {
   const result = await fetch("https://dummyjson.com/products/");
   const { products } = await result.json();
 
@@ -24,3 +24,5 @@ export default async (props: PropsWithChildren) => {
     </div>
   );
 };
+
+ export default ServerComponent
