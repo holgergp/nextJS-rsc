@@ -1,3 +1,4 @@
+import { Product } from "@/types";
 import { PropsWithChildren } from "react";
 
 export default async (props: PropsWithChildren) => {
@@ -11,7 +12,7 @@ export default async (props: PropsWithChildren) => {
       </h2>
       {props.children}
       <ol>
-        {products.map((p) => {
+        {products.map((p: Product) => {
           return (
             <li key={p.id} className="flex">
               <div className="flex-initial w-6 ">{p.id}</div>

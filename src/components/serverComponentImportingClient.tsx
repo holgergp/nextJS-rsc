@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react";
 import { ClientComponent } from "./clientComponent";
+import { Product } from "@/types";
 
 export const ServerComponentImportingClient = async (
   props: PropsWithChildren
@@ -14,7 +15,7 @@ export const ServerComponentImportingClient = async (
       </h2>
       <ClientComponent fromServer="test" />
       <ol>
-        {products.map((p) => {
+        {products.map((p: Product) => {
           return (
             <li key={p.id} className="flex">
               <div className="flex-initial w-6 ">{p.id}</div>
