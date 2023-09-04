@@ -39,6 +39,14 @@ export default function Home() {
         <li>
           <Link
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            href={"/fall4.1"}
+          >
+               <p> Fall 4.1: Server Component hat große Dependency und importiert Client Component ✅</p>
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall5"}
           >
                <p> Fall 5: Client Component importiert Server Component ❌</p>
