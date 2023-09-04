@@ -1,5 +1,4 @@
 import { PropsWithChildren } from "react";
-import { getProducts } from "./server";
 
 export default async (props: PropsWithChildren) => {
   const result = await fetch("https://dummyjson.com/products/");

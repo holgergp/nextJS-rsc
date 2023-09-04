@@ -1,4 +1,4 @@
- import { ClientComponentImportingServer } from "../clientComponentImportingServer";
+ import { ClientComponentImportingServer } from "../../components/clientComponentImportingServer";
 
 export default function Home() {
   return (

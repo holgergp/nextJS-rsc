@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { ClientComponent } from "../clientComponent";
-import  ServerComponent  from "../serverComponent";
+import { ClientComponent } from "../../components/clientComponent";
+import  ServerComponent  from "../../components/serverComponent";
 
 export default function Home() {
   return (

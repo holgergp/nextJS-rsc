@@ -1,6 +1,6 @@
 "use client";
 import { PropsWithChildren, useState } from "react";
-import ServerComponent from "./serverComponent";
+import ServerComponent from "../components/serverComponent";
 
 export const ClientComponentImportingServer = (
   props: PropsWithChildren & { fromServer?: string }
