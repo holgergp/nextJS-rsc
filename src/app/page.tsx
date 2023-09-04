@@ -17,9 +17,7 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall2"}
           >
-            <p>
-              Fall 2: Server Component bekommt Client Component per Prop ✅
-            </p>
+            <p>Fall 2: Server Component bekommt Client Component per Prop ✅</p>
           </Link>
         </li>
         <li>
@@ -27,9 +25,7 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall3"}
           >
-            <p>
-              Fall 3: Client Component bekommt Server Component per Prop ✅
-            </p>
+            <p>Fall 3: Client Component bekommt Server Component per Prop ✅</p>
           </Link>
         </li>
         <li>
@@ -72,13 +68,21 @@ export default function Home() {
         </li>
         <li>
           <Link
-              className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-              href={"/fall6"}
+            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            href={"/fall6"}
           >
             <p> Fall 6: Client Component importiert Fake Server Component ✅</p>
           </Link>
         </li>
       </ol>
+      <div className="pt-2">
+        <Link
+          className="font-medium text-sm text-slate-600 dark:text-slate-500 hover:underline"
+          href="https://github.com/holgergp/nextJS-rsc"
+        >
+          Der Code auf Github
+        </Link>
+      </div>
     </div>
   );
 }
