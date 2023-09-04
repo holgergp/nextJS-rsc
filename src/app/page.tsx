@@ -49,7 +49,15 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall5"}
           >
-               <p> Fall 5: Client Component importiert Server Component ❌</p>
+               <p> Fall 5: Client Component importiert Server Component ⍰</p>
+          </Link>
+        </li>
+        <li>
+          <Link
+              className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+              href={"/fall5.1"}
+          >
+            <p> Fall 5.1: Client Component importiert Server Component und hat Properties ❌</p>
           </Link>
         </li>
       </ol>
