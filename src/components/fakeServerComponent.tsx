@@ -2,10 +2,9 @@ import { Product } from "@/types";
 import { PropsWithChildren } from "react";
 import { headers } from "next/headers";
 
-const ServerComponent = async (props: PropsWithChildren) => {
+const FakeServerComponent = async (props: PropsWithChildren) => {
   const result = await fetch("https://dummyjson.com/products/");
   const { products } = await result.json();
-  const thisIsAServerComponent = headers();
 
   return (
     <div className="border-dotted border-2 border-red-500 p-2">
@@ -27,4 +26,4 @@ const ServerComponent = async (props: PropsWithChildren) => {
   );
 };
 
-export default ServerComponent;
+export default FakeServerComponent;

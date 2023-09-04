@@ -1,4 +1,4 @@
- import { ClientComponentImportingServer } from "../../components/clientComponentImportingServerHavingProperties";
+ import { ClientComponentImportingServer } from "@/components/clientComponentImportingServerHavingProperties";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
         Fall 5
       </h1>
       <div>
-        <ClientComponentImportingServer />
+      {/*  <ClientComponentImportingServer />*/}
       </div>
     </div>
   );

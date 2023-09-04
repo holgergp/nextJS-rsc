@@ -17,7 +17,9 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall2"}
           >
-            <p> Fall 2: Server Component bekommt Client Component per Prop ✅</p>
+            <p>
+              Fall 2: Server Component bekommt Client Component per Prop ✅
+            </p>
           </Link>
         </li>
         <li>
@@ -25,7 +27,9 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall3"}
           >
-            <p> Fall 3: Client Component bekommt Server Component per Prop ✅</p>
+            <p>
+              Fall 3: Client Component bekommt Server Component per Prop ✅
+            </p>
           </Link>
         </li>
         <li>
@@ -33,7 +37,7 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall4"}
           >
-               <p> Fall 4: Server Component importiert Client Component ✅</p>
+            <p> Fall 4: Server Component importiert Client Component ✅</p>
           </Link>
         </li>
         <li>
@@ -41,7 +45,10 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall4.1"}
           >
-               <p> Fall 4.1: Server Component hat große Dependency und importiert Client Component ✅</p>
+            <p>
+              Fall 4.1: Server Component hat große Dependency und importiert
+              Client Component ✅
+            </p>
           </Link>
         </li>
         <li>
@@ -49,15 +56,26 @@ export default function Home() {
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href={"/fall5"}
           >
-               <p> Fall 5: Client Component importiert Server Component ⍰</p>
+            <p> Fall 5: Client Component importiert Server Component ❌</p>
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            href={"/fall5.1"}
+          >
+            <p>
+              Fall 5.1: Client Component importiert Server Component und hat
+              Properties ❌
+            </p>
           </Link>
         </li>
         <li>
           <Link
               className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-              href={"/fall5.1"}
+              href={"/fall6"}
           >
-            <p> Fall 5.1: Client Component importiert Server Component und hat Properties ❌</p>
+            <p> Fall 6: Client Component importiert Fake Server Component ✅</p>
           </Link>
         </li>
       </ol>
