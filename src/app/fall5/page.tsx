@@ -7,9 +7,8 @@ export default function Home() {
         Fall 5
       </h1>
       <div>
-{/*
         <ClientComponentImportingServer />
-*/}
+
       </div>
     </div>
   );
